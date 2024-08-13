@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+#new-task {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#add-task-btn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.list-group-item button {
+    border: none;
+    background: none;
+    color: #dc3545;
+    font-size: 1.2em;
+}
+
+.list-group-item button:hover {
+    color: #c82333;
+    cursor: pointer;
+}
